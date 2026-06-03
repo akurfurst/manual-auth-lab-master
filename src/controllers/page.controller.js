@@ -4,6 +4,7 @@ const homePage = (req, res) => {
 
 const dashboardPage = (req, res) => {
     res.render("dashboard", { title: "Member Dashboard" });
+    console.log(req.user);
 };
 
 const adminPage = (req, res) => {
